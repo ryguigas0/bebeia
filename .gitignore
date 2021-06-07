@@ -20,7 +20,10 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-rpg_helper_dicord_bot-*.tar
+colmeia-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+.vscode/tasks.json
+config/config.exs
