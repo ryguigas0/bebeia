@@ -20,10 +20,10 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-colmeia-*.tar
+bebeia-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
 
-.vscode/tasks.json
-config/config.exs
+# Ignore .env file
+.env

@@ -1,9 +1,9 @@
-defmodule Colmeia.MixProject do
+defmodule Bebeia.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :colmeia,
+      app: :bebeia,
       version: "0.1.0",
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
@@ -15,7 +15,7 @@ defmodule Colmeia.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {Colmeia, []}
+      mod: {Bebeia, []}
     ]
   end
 

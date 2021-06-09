@@ -1,21 +1,10 @@
-# Colmeia
+# Bebeia the Dungeon Master helper
 
-**TODO: Add description**
+### Features
+- Dice roller
+- Music Player
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `colmeia` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:colmeia, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/colmeia](https://hexdocs.pm/colmeia).
-
+### How to run
+1. Create the `.env` with `export DISCORD_BOT_API=insert.key.here`
+2. `source .env`
+3. `mix run --no-halt`

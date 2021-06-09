@@ -1,4 +1,4 @@
-defmodule Colmeia.DiceRoller do
+defmodule Bebeia.DiceRoller do
   use Alchemy.Cogs
 
   Cogs.def dado do
@@ -6,11 +6,9 @@ defmodule Colmeia.DiceRoller do
   end
 
   Cogs.def dado(num_str) do
-    rolador = message.author.id
-
     case Integer.parse(num_str) do
       {num, ""} when num > 1 ->
-        "<@#{rolador}> tirou: #{rolar_dado(num)}"
+        "<@#{message.author.id}> tirou: #{rolar_dado(num)}"
 
       _ ->
         "Coloque um número maior que 1"
